@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-01T05:30:19.047Z</updated>
+  <updated>2018-11-14T13:01:48.908Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML初识</title>
+    <link href="http://yoursite.com/2018/11/12/%E5%85%B3%E4%BA%8EHTML%E8%BF%91%E6%9C%9F%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2018/11/12/关于HTML近期学习/</id>
+    <published>2018-11-12T01:23:20.000Z</published>
+    <updated>2018-11-14T13:01:48.908Z</updated>
+    
+    <content type="html"><![CDATA[<p>超文本标记语言，标准通用标记语言下的一个应用。<br>“超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。<br>超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容。<br>近期学习网站：(<a href="https://www.bilibili.com/video/av10298843" target="_blank" rel="noopener">https://www.bilibili.com/video/av10298843</a>)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;超文本标记语言，标准通用标记语言下的一个应用。&lt;br&gt;“超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。&lt;br&gt;超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
