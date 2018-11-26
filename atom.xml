@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-14T13:01:48.908Z</updated>
+  <updated>2018-11-26T13:45:27.331Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>路</title>
+    <link href="http://yoursite.com/2018/11/26/%E8%B7%AF/"/>
+    <id>http://yoursite.com/2018/11/26/路/</id>
+    <published>2018-11-26T13:43:02.686Z</published>
+    <updated>2018-11-26T13:45:27.331Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个不仅限记录我的学习历程，也想记录我成长变化的博客。<br>1.道阻且长。<br>2.不一时兴起  不要因为一时的热情而做某事，事后而懊悔。<br>3.不本末倒置  不要因为有了目标，而本末倒置，一切建立在身体之上。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一个不仅限记录我的学习历程，也想记录我成长变化的博客。&lt;br&gt;1.道阻且长。&lt;br&gt;2.不一时兴起  不要因为一时的热情而做某事，事后而懊悔。&lt;br&gt;3.不本末倒置  不要因为有了目标，而本末倒置，一切建立在身体之上。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>HTML初识</title>
