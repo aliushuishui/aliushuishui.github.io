@@ -6,15 +6,36 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-26T13:45:27.331Z</updated>
+  <updated>2019-03-04T11:52:54.593Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Martin LIU</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>近期JS学习</title>
+    <link href="http://yoursite.com/2018/12/12/JS%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2018/12/12/JS学习/</id>
+    <published>2018-12-12T01:23:20.000Z</published>
+    <updated>2019-03-04T11:52:54.593Z</updated>
+    
+    <content type="html"><![CDATA[<p>从菜鸟教程看，借图书看，最后在mooc看总算有点收获，javascript入门篇：（<a href="https://www.imooc.com/learn/36）；" target="_blank" rel="noopener">https://www.imooc.com/learn/36）；</a><br>进阶篇：(<a href="https://www.imooc.com/learn/10)。" target="_blank" rel="noopener">https://www.imooc.com/learn/10)。</a><br> 慢慢来吧,冲冲冲.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;从菜鸟教程看，借图书看，最后在mooc看总算有点收获，javascript入门篇：（&lt;a href=&quot;https://www.imooc.com/learn/36）；&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.imooc.com
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>路</title>
