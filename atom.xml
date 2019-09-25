@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Liu</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-04T11:52:54.593Z</updated>
+  <updated>2019-09-25T03:45:50.071Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>重生</title>
+    <link href="http://yoursite.com/2019/06/07/%E9%87%8D%E7%94%9F/"/>
+    <id>http://yoursite.com/2019/06/07/重生/</id>
+    <published>2019-06-07T01:23:20.000Z</published>
+    <updated>2019-09-25T03:45:50.071Z</updated>
+    
+    <content type="html"><![CDATA[<p>重生</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;重生&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>近期JS学习</title>
-    <link href="http://yoursite.com/2018/12/12/JS%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2018/12/12/JS学习/</id>
-    <published>2018-12-12T01:23:20.000Z</published>
-    <updated>2019-03-04T11:52:54.593Z</updated>
+    <link href="http://yoursite.com/2019/03/01/JS%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2019/03/01/JS学习/</id>
+    <published>2019-03-01T01:23:20.000Z</published>
+    <updated>2019-09-25T03:47:35.319Z</updated>
     
     <content type="html"><![CDATA[<p>从菜鸟教程看，借图书看，最后在mooc看总算有点收获，javascript入门篇：（<a href="https://www.imooc.com/learn/36）；" target="_blank" rel="noopener">https://www.imooc.com/learn/36）；</a><br>进阶篇：(<a href="https://www.imooc.com/learn/10)。" target="_blank" rel="noopener">https://www.imooc.com/learn/10)。</a><br> 慢慢来吧,冲冲冲.</p>]]></content>
     
