@@ -28,7 +28,9 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://i.loli.net/2019/12/24/6vq8tHdDYLpok9A.jpg">
 <meta property="og:image" content="https://i.loli.net/2019/12/25/zJK5gScktyP9d2H.png">
-<meta property="og:updated_time" content="2019-12-25T15:29:21.055Z">
+<meta property="og:image" content="https://i.loli.net/2020/01/01/29cF6XZBHwrtxTL.png">
+<meta property="og:image" content="https://i.loli.net/2020/01/01/B89pyGOHaMq3sgS.png">
+<meta property="og:updated_time" content="2020-01-02T12:31:56.201Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vc++">
 <meta name="twitter:description" content="#类和对象   访问限定符  1.public 2.private 3.protect  inlcude&amp;lt; string&amp;gt; 类型 s.empty() 判断是否空 s.size 字符个数 s1+s2 字符串相接">
@@ -196,7 +198,7 @@ var themeMenus = {};
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="https://i.loli.net/2019/12/24/6vq8tHdDYLpok9A.jpg" alt="HupuBBS_190919125701-1242822577.jpg"></p>
+        <p><img src="https://i.loli.net/2019/12/24/6vq8tHdDYLpok9A.jpg" alt="1"></p>
 <p>#类和对象</p>
 <p><img src="https://i.loli.net/2019/12/25/zJK5gScktyP9d2H.png" alt="image.png"></p>
 <blockquote>
@@ -238,6 +240,52 @@ var themeMenus = {};
 </li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">class student</span><br><span class="line">    &#123;</span><br><span class="line">        public:</span><br><span class="line">        student()</span><br><span class="line">        &#123;</span><br><span class="line">            m_strname=name;</span><br><span class="line">        &#125;</span><br><span class="line">        private:</span><br><span class="line">        string  m_strname;s</span><br><span class="line">        int age;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>划了考点，先从考点出发</p>
+<p><img src="https://i.loli.net/2020/01/01/29cF6XZBHwrtxTL.png" alt="考试范围"></p>
+<p><img src="https://i.loli.net/2020/01/01/B89pyGOHaMq3sgS.png" alt="重要知识点"></p>
+<blockquote>
+<p>函数</p>
+</blockquote>
+<p>函数的声明可以不写形参名,只写参数类型,如</p>
+<p>void swap(int <em> px,int </em>  py )</p>
+<p>void swap(int <em> ,int </em> )</p>
+<p>引用:是c++中独具特色的一概念,是一种特殊类型的变量,它是另一个变量的别名,声明一个引用是需要再其名称前加符号&amp;,并同时对引用进行初始话,指定他所引用的对象</p>
+<pre><code>int a=10;
+int &amp;b=a;
+b++
+cout&lt;&lt;a&lt;&lt;b;
+</code></pre><p>  结果:10 10;</p>
+<blockquote>
+<p>全局变量</p>
+</blockquote>
+<p>在一个多个独立编译的源文件中,可以用全局变量,进行链接,但是 要 加 extern</p>
+<pre><code>extern int a;        
+</code></pre><blockquote>
+<p>动态内存分配</p>
+</blockquote>
+<p>动态内存分配是只再程序运行是根据当前指令随时为存储数据分屏内存空间,完全程序自己进行内存的分配和释放.   </p>
+<p>c语言中,动态内存分配是使用malloc()和free()实现的,c++中不仅可以使用这些还可以 以用 new和delete</p>
+<pre><code>&lt;指针变量&gt; =new &lt;数据类型&gt; 
+&lt;指针变量&gt; =new &lt;数据类型&gt;[&lt;整型表达式&gt;]
+&lt;指针变量&gt; =new &lt;数据类型&gt;(&lt;初始值&gt;)                                                              
+</code></pre><p>面向对象程序设计4个基本特征:抽象,封装,继承,多态.</p>
+<p>继承:是指一个新类可以从已有的类派生而来,新类继承了原有类的特性(属性和行为)</p>
+<p>构造函数自己就调用了.析构函数</p>
+<p>类和对象的区别和联系:</p>
+<p>1.对象是具有类类型的变量。类和对象是面向对象编程技术中的最基本的概念。</p>
+<p>2.类是一个抽象的概念，对象是类的一个具体</p>
+<p>类是一个抽象的概念；<br>而对象是类抽象概念的实物表达</p>
+<p>3.7<br>类的访问控制权限有三种：private  public  protect。私有属性只允许被本类的成员函数访问或者调用。而公有属性可以被本类或者其他类的成员函数访问或者调用（通过接口）。</p>
+<p>3.8<br>构造函数是一种特殊的成员函数，主要用于在创建对象时初始化对象，即为对象的成员变量赋初值。析构函数也是一种特殊的成员函数，是在对象的生存期即将结束前时被系统调用，用来在对象被删除前做一些清理和善后工作。</p>
+<p>3.11<br>this指针是一个特殊的指针，用来指向当前对象。每个非静态成员函数都隐藏有一个this指针的函数参数，当通过一个对象调用成员函数时，编译器要把当前对象的地址传递给this指针。在成员函数中访问数据成员或者调用其他成员函数不需要指定对象，因为是通过一个隐藏的this指针确定当前的对象</p>
+<p>3.12<br>静态成员变量不是某个对象的成员，而是同一类所有对象共享的数据成员，其值对于每个对象都是一样的。静态成员函数也是与一个类相关联而不是与一个特定的对象关联。静态成员可以被初始化，但只能在类体外初始化。静态成员函数必须通过对象名访问非静态成员变量，静态成员函数不能通过this指针访问。静态成员变量没有额外的开销。</p>
+<p>3.18<br>x和y是类的私有成员变量，只能通过类的成员变量进行赋值。应该在创建对象时对二者进行初始化。</p>
+<p>4-7 什么是虚基类？它有什么作用？如何使用虚基类？<br>虚基类是一种派生方式；<br>作用：解决多继承中的二义性问题；<br>采用虚基类方式定义派生类，只需在指定的基类名的前面加上关键字virtual</p>
+<p>4-11 什么是静态联编？什么是动态联编？它们分别在什么情况下被采用？<br>静态联编：是指在编译链接阶段进行的联编，又称早期绑定。<br>动态联编：是指在程序执行阶段进行的联编（以为在编译链接阶段不能确定要调用的函数），又称个后期绑定。</p>
+<p>4-15 析构函数是否可以定义为纯虚函数？如果可以，如何定义纯虚析构函数？<br>可以，把虚构函数声明为纯虚函数，但纯虚析构函数必须要具体的函数实现代码。</p>
+<p>4-17 什么是重载？C++重载分为哪几种？它们之间有什么联系和区别？<br>重载体现了编译时多态，即在函数名（包括运算符）相同的情况下编译器在编译阶段间能够根据不同的函数参数类型确定对应的函数<br>重载包括函数重载和运算符重载。<br>两者实质上是一样的，但是运算符重载比函数重载复杂的多，可以采用普通函数的形式重载运算符，也采用成员函数的形式重载运算符。</p>
+<p>4-28<br>没有使用参数列表显式的调用基类的构造函数给派生类进行初始化。</p>
+<p>4-29<br>类B、类C在继承A时，由于存在同名的函数，导致类C出现了getdata（）函数的多个副本，使在进行输出调用时产生了二义性的问题，应该在进行访问时加上作用域限定符，指明调用的是哪个函数。并将setData（）函数声明为虚函数。</p>
 
       
     </div>
@@ -306,7 +354,7 @@ var themeMenus = {};
 
   <div class="clearfix container">
       <div class="site-info">
-	      &copy; 2019 Liu All Rights Reserved.
+	      &copy; 2020 Liu All Rights Reserved.
           
             <span id="busuanzi_container_site_uv">
               本站访客数<span id="busuanzi_value_site_uv"></span>人次  
